@@ -1,0 +1,107 @@
+.dashboard {
+    overflow-x: hidden; /* Menyembunyikan scroll horizontal */
+}
+
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.sidebar {
+    height: 100vh;
+    background-color: #f8f9fa;
+    padding-top: 20px;
+}
+
+.menu {
+    margin-top: 20px;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.menu-item:hover {
+    background-color: #e9ecef;
+}
+
+.menu-item span {
+    margin-left: 10px;
+}
+
+.navbar {
+    background-color: #fff;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 10px 20px; /* Adjust padding to fit content better */
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar-title {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.navbar-elements {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 15px; /* Adjust gap between elements */
+}
+
+.navbar-icon {
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.navbar-divider {
+    font-size: 20px;
+    color: #000;
+}
+
+.navbar-profile {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-profile img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    margin-left: 10px; /* Adjust margin to align with text */
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    z-index: 1000;
+    padding: 10px;
+}
+
+.dropdown-item {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.dropdown-item:hover {
+    background-color: #f1f1f1;
+}
+
+.square-card {
+    margin-bottom: 20px;
+}
+
+.card-cart {
+    margin-top: 20px;
+}

@@ -1,0 +1,160 @@
+body {
+  margin: 0;
+  background-color: #2b2a2a;
+  font-family: 'Poppins', sans-serif;
+  /* Menggunakan Poppins font */
+}
+
+.vh-100 {
+  height: 100vh;
+  border-radius: 16px;
+}
+
+.col-10 {
+  flex: 1; /* Allow the right column to expand to fill remaining space */
+  background-color: #F7F8FC; /* Default background color */
+  padding: 20px;
+  height: 100vh;
+}
+
+.card {
+  width: 100%;
+  border-radius: 80px;
+  /* Contoh kustomisasi sudut melengkung */
+}
+
+.transparent {
+  color: #00000041;
+  font-weight: bold;
+}
+
+.headercard2 {
+  font-weight: bold;
+}
+
+.headercard {
+  color: #00000073;
+  font-weight: bold;
+}
+
+.no-underline {
+  text-decoration: none;
+}
+
+p {
+  font-size: small;
+}
+
+.form-label {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+#email {
+  background-color: #24059204;
+  padding: 10px;
+}
+#password{
+  background-color: #24059204;
+  padding: 10px;
+}
+#email::placeholder {
+  color: rgba(128, 128, 128, 0.575);
+  font-weight: lighter;
+  /* Change this to the desired color */
+}
+
+#password::placeholder {
+  color: rgba(128, 128, 128, 0.575);
+  font-weight: lighter;
+  /* Change this to the desired color */
+}
+/* .button{
+  background-color: #1902e6;
+} */
+.custom-btn {
+  background-color: #3751FF; /* Change this to the desired color */
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+.password-container {
+  position: relative;
+}
+.password-toggle {
+  position: absolute;
+  right: 10px;
+  top: 70%;
+  transform: translateY(-50%);
+  color: #0000002d;
+  cursor: pointer;
+}
+.transparent-light{
+  color: #ffffff5b;
+  font-weight: bold;
+}
+.right {
+  text-align: right;
+}
+.square-card {
+  border-radius: 10px; /* Sesuaikan jika ingin sudut kartu lebih tumpul atau tajam */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px; /* Tambahkan margin jika diperlukan */
+}
+.active-card{
+  border: 1px solid #3751FF; 
+  color: #3751FF;
+}
+.square-card .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card{
+  background-color: #fff;
+  border: 0.1px solid #00000017;
+}
+/* Styles for larger screens */
+.navbar-elements {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.dropdown-menu {
+  display: none;
+}
+
+/* Styles for screens smaller than 600px */
+@media (max-width: 760px) {
+  .navbar-elements {
+      display: none;
+  }
+  
+  .dropdown-menu {
+      display: block;
+      background-color: white;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      padding: 10px;
+      position: absolute;
+      right: 10px;
+      top: 50px;
+      z-index: 1000;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+  }
+}
+
+.card-cart {
+  width: 100%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px; 
+}
